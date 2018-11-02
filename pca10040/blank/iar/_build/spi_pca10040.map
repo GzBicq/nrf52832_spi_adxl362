@@ -1,0 +1,781 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                02/Nov/2018  15:20:19
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\spi_pca10040.out
+#    Map file     =  
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\spi_pca10040.map
+#    Command line =  
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\app_button.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\app_error.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\app_error_handler_iar.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\app_error_weak.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\app_scheduler.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\app_timer.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\app_util_platform.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\boards.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\bsp.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\iar_startup_nrf52.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\main.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrf_assert.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrf_atomic.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrf_balloc.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrf_drv_spi.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrf_drv_uart.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrf_fprintf.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrf_fprintf_format.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrf_log_backend_rtt.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrf_log_backend_serial.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrf_log_backend_uart.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrf_log_default_backends.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrf_log_frontend.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrf_log_str_formatter.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrf_memobj.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrf_strerror.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrfx_gpiote.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrfx_prs.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrfx_spi.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrfx_spim.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrfx_uart.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\nrfx_uarte.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\SEGGER_RTT.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\SEGGER_RTT_printf.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\SEGGER_RTT_Syscalls_IAR.o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\system_nrf52.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\spi_pca10040.out
+#        --map
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build\spi_pca10040.map
+#        --config
+#        F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\spi_iar_nRF5x.icf
+#        --warnings_are_errors --entry __iar_program_start --inline --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x0007ffff] { ro, block RO_END };
+"P2":  place in [from 0x20000000 to 0x2000ffff] { rw, block CSTACK, block HEAP };
+
+  Section             Kind        Address    Size  Object
+  -------             ----        -------    ----  ------
+"A1":                                       0x200
+  .intvec             ro code  0x00000000   0x200  iar_startup_nrf52.o [1]
+                             - 0x00000200   0x200
+
+"P1":                                      0x3a3c
+  .text               ro code  0x00000200   0x7f0  nrf_log_frontend.o [1]
+  .text               ro code  0x000009f0   0x178  nrf_memobj.o [1]
+  .text               ro code  0x00000b68    0x9a  nrf_atomic.o [1]
+  .rodata             const    0x00000c02     0x2  main.o [1]
+  .text               ro code  0x00000c04    0x3c  app_util_platform.o [1]
+  .text               ro code  0x00000c40    0xca  nrf_balloc.o [1]
+  .text               ro code  0x00000d0a     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00000d0c    0x76  ABImemcpy_unaligned.o [5]
+  .text               ro code  0x00000d82     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00000d84   0x62c  app_timer.o [1]
+  .text               ro code  0x000013b0   0x5dc  system_nrf52.o [1]
+  .text               ro code  0x0000198c   0x51c  nrfx_spim.o [1]
+  .text               ro code  0x00001ea8    0x5a  nrfx_prs.o [1]
+  .text               ro code  0x00001f02     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00001f04   0x40c  nrf_fprintf_format.o [1]
+  .text               ro code  0x00002310    0x3c  nrf_fprintf.o [1]
+  .text               ro code  0x0000234c    0x36  strlen.o [5]
+  .text               ro code  0x00002382     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00002384   0x338  nrfx_gpiote.o [1]
+  .text               ro code  0x000026bc   0x2ac  main.o [1]
+  .text               ro code  0x00002968    0xb4  nrf_drv_spi.o [1]
+  .text               ro code  0x00002a1c    0x1e  app_error_handler_iar.o [1]
+  .text               ro code  0x00002a3a     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00002a3c    0x24  nrf_log_default_backends.o [1]
+  .text               ro code  0x00002a60    0xb4  app_error_weak.o [1]
+  .text               ro code  0x00002b14    0xa0  nrf_log_backend_rtt.o [1]
+  .text               ro code  0x00002bb4    0x54  nrf_strerror.o [1]
+  .text               ro code  0x00002c08    0x80  app_error.o [1]
+  .text               ro code  0x00002c88   0x1d4  SEGGER_RTT.o [1]
+  .text               ro code  0x00002e5c    0xe0  nrf_log_backend_serial.o [1]
+  .text               ro code  0x00002f3c    0x44  strcpy_unaligned.o [5]
+  .text               ro code  0x00002f80   0x27c  nrf_log_str_formatter.o [1]
+  .text               ro code  0x000031fc    0x28  isprint.o [3]
+  .text               ro code  0x00003224    0x28  isxxx.o [3]
+  .text               ro code  0x0000324c    0x18  setlocale.o [3]
+  .text               ro code  0x00003264    0x16  xlocale_c.o [3]
+  .text               ro code  0x0000327a    0x24  xlocale_c.o [3]
+  .text               ro code  0x0000329e     0x2  iar_startup_nrf52.o [1]
+  .rodata             const    0x000032a0   0x118  nrf_strerror.o [1]
+  .rodata             const    0x000033b8    0x50  main.o [1]
+  .text               ro code  0x00003408    0x40  zero_init3.o [5]
+  .text               ro code  0x00003448    0x38  packbits_init_single.o [5]
+  log_const_data               0x00003480    0x38  <Block>
+    log_const_data    const    0x00003480     0x8  nrf_log_frontend.o [1]
+    log_const_data    const    0x00003488     0x8  nrf_log_frontend.o [1]
+    log_const_data    const    0x00003490     0x8  nrfx_gpiote.o [1]
+    log_const_data    const    0x00003498     0x8  nrfx_prs.o [1]
+    log_const_data    const    0x000034a0     0x8  nrfx_spim.o [1]
+    log_const_data    const    0x000034a8     0x8  nrfx_uart.o [1]
+    log_const_data    const    0x000034b0     0x8  nrfx_uarte.o [1]
+  .rodata             const    0x000034b8    0x2c  nrf_strerror.o [1]
+  .rodata             const    0x000034e4    0x28  app_error_weak.o [1]
+  .rodata             const    0x0000350c    0x28  nrf_strerror.o [1]
+  .rodata             const    0x00003534    0x28  nrf_strerror.o [1]
+  .text               ro code  0x0000355c    0x28  data_init.o [5]
+  .rodata             const    0x00003584    0x24  nrf_strerror.o [1]
+  .rodata             const    0x000035a8    0x24  nrf_strerror.o [1]
+  .rodata             const    0x000035cc    0x24  nrf_strerror.o [1]
+  .rodata             const    0x000035f0    0x24  nrf_strerror.o [1]
+  .rodata             const    0x00003614    0x24  nrf_strerror.o [1]
+  .text               ro code  0x00003638    0x22  fpinit_M.o [4]
+  .iar.init_table     const    0x0000365c    0x28  - Linker created -
+  .text               ro code  0x00003684     0x2  iar_startup_nrf52.o [1]
+  .rodata             const    0x00003688    0x20  nrf_strerror.o [1]
+  .rodata             const    0x000036a8    0x20  nrf_strerror.o [1]
+  .rodata             const    0x000036c8    0x20  nrf_strerror.o [1]
+  .rodata             const    0x000036e8    0x20  nrf_strerror.o [1]
+  .rodata             const    0x00003708    0x20  nrf_strerror.o [1]
+  .rodata             const    0x00003728    0x1c  app_error_weak.o [1]
+  .rodata             const    0x00003744    0x1c  nrf_strerror.o [1]
+  .rodata             const    0x00003760    0x1c  nrf_strerror.o [1]
+  .rodata             const    0x0000377c    0x1c  nrf_strerror.o [1]
+  .rodata             const    0x00003798    0x1c  nrf_strerror.o [1]
+  .rodata             const    0x000037b4    0x1c  nrf_strerror.o [1]
+  .text               ro code  0x000037d0    0x1a  cmain.o [5]
+  .text               ro code  0x000037ea     0x4  exit.o [3]
+  .text               ro code  0x000037ee     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x000037f0     0xa  cexit.o [5]
+  .text               ro code  0x000037fa     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x000037fc     0xc  XXexit.o [5]
+  .rodata             const    0x00003808    0x18  app_error_weak.o [1]
+  .rodata             const    0x00003820    0x18  main.o [1]
+  .rodata             const    0x00003838    0x18  nrf_log_backend_serial.o [1]
+  .rodata             const    0x00003850    0x18  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003868    0x18  nrf_strerror.o [1]
+  .rodata             const    0x00003880    0x18  nrf_strerror.o [1]
+  .rodata             const    0x00003898    0x18  nrf_strerror.o [1]
+  .rodata             const    0x000038b0    0x18  nrf_strerror.o [1]
+  .rodata             const    0x000038c8    0x18  nrf_strerror.o [1]
+  .rodata             const    0x000038e0    0x18  nrf_strerror.o [1]
+  .rodata             const    0x000038f8    0x18  nrf_strerror.o [1]
+  .rodata             const    0x00003910    0x18  nrf_strerror.o [1]
+  nrf_balloc          const    0x00003928    0x18  nrf_log_frontend.o [1]
+  .rodata             const    0x00003940    0x14  app_error_weak.o [1]
+  .rodata             const    0x00003954    0x14  main.o [1]
+  .rodata             const    0x00003968    0x14  nrf_log_frontend.o [1]
+  .rodata             const    0x0000397c    0x14  nrf_log_frontend.o [1]
+  .rodata             const    0x00003990    0x14  nrf_strerror.o [1]
+  .rodata             const    0x000039a4    0x14  nrf_strerror.o [1]
+  .rodata             const    0x000039b8    0x14  nrf_strerror.o [1]
+  .rodata             const    0x000039cc    0x14  nrf_strerror.o [1]
+  .rodata             const    0x000039e0    0x14  nrf_strerror.o [1]
+  .rodata             const    0x000039f4    0x14  nrf_strerror.o [1]
+  .rodata             const    0x00003a08    0x14  nrf_strerror.o [1]
+  .rodata             const    0x00003a1c    0x10  main.o [1]
+  .rodata             const    0x00003a2c    0x10  main.o [1]
+  .rodata             const    0x00003a3c    0x10  main.o [1]
+  .rodata             const    0x00003a4c    0x10  nrf_drv_spi.o [1]
+  .rodata             const    0x00003a5c    0x10  nrf_fprintf_format.o [1]
+  .rodata             const    0x00003a6c    0x10  nrf_strerror.o [1]
+  .rodata             const    0x00003a7c    0x10  nrf_strerror.o [1]
+  .text               ro code  0x00003a8c    0x10  iar_startup_nrf52.o [1]
+  .rodata             const    0x00003a9c     0xc  main.o [1]
+  .rodata             const    0x00003aa8     0xc  nrf_log_backend_rtt.o [1]
+  .rodata             const    0x00003ab4     0xc  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003ac0     0xc  nrf_strerror.o [1]
+  .rodata             const    0x00003acc     0xc  SEGGER_RTT.o [1]
+  .text               ro code  0x00003ad8     0xc  cstartup_M.o [5]
+  .rodata             const    0x00003af0     0x8  app_timer.o [1]
+  .rodata             const    0x00003b00     0x8  nrf_log_backend_rtt.o [1]
+  .rodata             const    0x00003b08     0x8  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003b10     0x8  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003b18     0x8  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003b20     0x8  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003b28     0x8  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003b30     0x8  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003b38     0x8  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003b40     0x8  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003b48     0x8  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003b50     0x8  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003b58     0x8  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003b60     0x8  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003b68     0x8  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003b70     0x8  nrf_log_str_formatter.o [1]
+  .rodata             const    0x00003b78     0x8  nrfx_gpiote.o [1]
+  .rodata             const    0x00003b80     0x8  nrfx_spim.o [1]
+  .rodata             const    0x00003b88     0x8  nrfx_uart.o [1]
+  .rodata             const    0x00003b90     0x8  nrfx_uarte.o [1]
+  .rodata             const    0x00003b98     0x8  SEGGER_RTT.o [1]
+  .rodata             const    0x00003ba0     0x4  main.o [1]
+  .rodata             const    0x00003ba4     0x4  main.o [1]
+  .rodata             const    0x00003ba8     0x4  nrf_fprintf.o [1]
+  .rodata             const    0x00003bac     0x4  nrf_log_frontend.o [1]
+  .rodata             const    0x00003bb0     0x4  nrfx_gpiote.o [1]
+  .rodata             const    0x00003bb4     0x4  nrfx_prs.o [1]
+  .rodata             const    0x00003bb8     0x4  nrfx_spim.o [1]
+  .text               ro code  0x00003bbc     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bbe     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bc0     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bc2     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bc4     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bc6     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bc8     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bca     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bcc     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bce     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bd0     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bd2     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bd4     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bd6     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bd8     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bda     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bdc     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bde     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003be0     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003be2     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003be4     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003be6     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003be8     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bea     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bec     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bee     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bf0     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bf2     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bf4     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bf6     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bf8     0x2  iar_startup_nrf52.o [1]
+  .text               ro code  0x00003bfa     0x2  iar_startup_nrf52.o [1]
+  .rodata             const    0x00003bfc     0x0  zero_init3.o [5]
+  .rodata             const    0x00003bfc     0x0  packbits_init_single.o [5]
+  Initializer bytes   const    0x00003bfc    0x40  <for P2-1>
+                             - 0x00003c3c  0x3a3c
+
+"P2", part 1 of 4:                           0xbc
+  P2-1                         0x20000000    0xbc  <Init block>
+    .data             inited   0x20000000     0xc  nrf_log_default_backends.o [1]
+    .data             inited   0x2000000c    0x14  nrf_log_str_formatter.o [1]
+    .data             inited   0x20000020    0x24  nrf_log_str_formatter.o [1]
+    .data             inited   0x20000044     0x4  system_nrf52.o [1]
+    __DLIB_PERTHREAD  inited   0x20000048    0x74  setlocale.o [3]
+                             - 0x200000bc    0xbc
+
+"P2", part 2 of 4:                           0x1c
+  log_dynamic_data             0x200000bc    0x1c  <Block>
+    log_dynamic_data  zero     0x200000bc     0x4  nrf_log_frontend.o [1]
+    log_dynamic_data  zero     0x200000c0     0x4  nrf_log_frontend.o [1]
+    log_dynamic_data  zero     0x200000c4     0x4  nrfx_gpiote.o [1]
+    log_dynamic_data  zero     0x200000c8     0x4  nrfx_prs.o [1]
+    log_dynamic_data  zero     0x200000cc     0x4  nrfx_spim.o [1]
+    log_dynamic_data  zero     0x200000d0     0x4  nrfx_uart.o [1]
+    log_dynamic_data  zero     0x200000d4     0x4  nrfx_uarte.o [1]
+                             - 0x200000d8    0x1c
+
+"P2", part 3 of 4:                         0x2000
+  CSTACK                       0x200000d8  0x2000  <Block>
+    CSTACK            uninit   0x200000d8  0x2000  <Block tail>
+                             - 0x200020d8  0x2000
+
+"P2", part 4 of 4:                          0x9a4
+  .bss                zero     0x200020d8   0x424  nrf_log_frontend.o [1]
+  .bss                zero     0x200024fc   0x200  SEGGER_RTT.o [1]
+  .bss                zero     0x200026fc   0x10c  app_timer.o [1]
+  .bss                zero     0x20002808    0xc0  nrf_log_frontend.o [1]
+  .bss                zero     0x200028c8    0x78  SEGGER_RTT.o [1]
+  .bss                zero     0x20002940    0x5c  nrfx_gpiote.o [1]
+  .bss                zero     0x2000299c    0x40  nrf_log_backend_rtt.o [1]
+  .bss                zero     0x200029dc    0x24  nrfx_spim.o [1]
+  .bss                zero     0x20002a00    0x20  app_error.o [1]
+  .bss                zero     0x20002a20    0x10  SEGGER_RTT.o [1]
+  .bss                zero     0x20002a30     0xc  nrf_drv_spi.o [1]
+  .bss                zero     0x20002a3c     0xc  nrf_drv_spi.o [1]
+  .bss                zero     0x20002a48     0x8  app_timer.o [1]
+  .bss                zero     0x20002a50     0x8  nrf_log_frontend.o [1]
+  .bss                zero     0x20002a58     0x8  nrf_log_frontend.o [1]
+  .bss                zero     0x20002a60     0x8  nrfx_prs.o [1]
+  .bss                zero     0x20002a68     0x4  app_timer.o [1]
+  .bss                zero     0x20002a6c     0x4  app_timer.o [1]
+  .bss                zero     0x20002a70     0x4  app_util_platform.o [1]
+  .bss                zero     0x20002a74     0x1  app_timer.o [1]
+  .bss                zero     0x20002a75     0x1  app_timer.o [1]
+  .bss                zero     0x20002a76     0x1  app_timer.o [1]
+  .bss                zero     0x20002a77     0x1  app_timer.o [1]
+  .bss                zero     0x20002a78     0x1  main.o [1]
+  .bss                zero     0x20002a79     0x1  nrf_log_backend_rtt.o [1]
+                             - 0x20002a7a   0x9a2
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    2 destination ranges, total size 0x9be:
+          0x200000bc   0x1c
+          0x200020d8  0x9a2
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x40 (34% of destination):
+          0x00003bfc   0x40
+    1 destination range, total size 0xbc:
+          0x20000000   0xbc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                      ro code  ro data  rw data
+    ------                      -------  -------  -------
+F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build: [1]
+    SEGGER_RTT.o                    468       20      648
+    app_error.o                     128                32
+    app_error_handler_iar.o          30
+    app_error_weak.o                180      112
+    app_timer.o                   1 580        8      288
+    app_util_platform.o              60                 4
+    iar_startup_nrf52.o             610
+    main.o                          684      194        1
+    nrf_atomic.o                    154
+    nrf_balloc.o                    202
+    nrf_drv_spi.o                   180       16       24
+    nrf_fprintf.o                    60        4
+    nrf_fprintf_format.o          1 036       16
+    nrf_log_backend_rtt.o           160       20       65
+    nrf_log_backend_serial.o        224       24
+    nrf_log_default_backends.o       36        4       12
+    nrf_log_frontend.o            2 032       84    1 276
+    nrf_log_str_formatter.o         636      167       56
+    nrf_memobj.o                    376
+    nrf_strerror.o                   84    1 260
+    nrfx_gpiote.o                   824       20       96
+    nrfx_prs.o                       90       12       12
+    nrfx_spim.o                   1 308       20       40
+    nrfx_uart.o                               16        4
+    nrfx_uarte.o                              16        4
+    system_nrf52.o                1 500        1        4
+    -----------------------------------------------------
+    Total:                       12 642    2 014    2 566
+
+command line: [2]
+    -----------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                            4
+    isprint.o                        40
+    isxxx.o                          40
+    setlocale.o                      24       40      116
+    xlocale_c.o                      58
+    -----------------------------------------------------
+    Total:                          166       40      116
+
+m7M_tls.a: [4]
+    fpinit_M.o                       34
+    -----------------------------------------------------
+    Total:                           34
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o           118
+    XXexit.o                         12
+    cexit.o                          10
+    cmain.o                          26
+    cstartup_M.o                     12
+    data_init.o                      40
+    packbits_init_single.o           56
+    strcpy_unaligned.o               68
+    strlen.o                         54
+    zero_init3.o                     64
+    -----------------------------------------------------
+    Total:                          460
+
+    Gaps                                      24
+    Linker created                            40    8 192
+---------------------------------------------------------
+    Grand Total:                 13 302    2 118   10 874
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x0000365c          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00003684          --   Gb  - Linker created -
+?main                   0x000037d1         Code  Gb  cmain.o [5]
+CSTACK$$Base            0x200000d8          --   Gb  - Linker created -
+CSTACK$$Limit           0x200020d8          --   Gb  - Linker created -
+GPIOTE_IRQHandler       0x000024c7  0x1e4  Code  Gb  nrfx_gpiote.o [1]
+NVIC_ClearPendingIRQ    0x00000dc7   0x16  Code  Lc  app_timer.o [1]
+NVIC_ClearPendingIRQ    0x000019a3   0x16  Code  Lc  nrfx_spim.o [1]
+NVIC_DisableIRQ         0x00000d9b   0x16  Code  Lc  app_timer.o [1]
+NVIC_EnableIRQ          0x00000d85   0x16  Code  Lc  app_timer.o [1]
+NVIC_EnableIRQ          0x0000198d   0x16  Code  Lc  nrfx_spim.o [1]
+NVIC_SetPendingIRQ      0x00000db1   0x16  Code  Lc  app_timer.o [1]
+NVIC_SetPriority        0x000019b9   0x26  Code  Lc  nrfx_spim.o [1]
+NVIC_SystemReset        0x000013b1   0x22  Code  Lc  system_nrf52.o [1]
+RTC1_IRQHandler         0x00001309   0x2c  Code  Gb  app_timer.o [1]
+Region$$Table$$Base     0x0000365c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00003684          --   Gb  - Linker created -
+SEGGER_RTT_Init         0x00002e3f    0x8  Code  Gb  SEGGER_RTT.o [1]
+SEGGER_RTT_WriteNoLock  0x00002dd5   0x6a  Code  Gb  SEGGER_RTT.o [1]
+SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler
+                        0x00001e7d    0xc  Code  Gb  nrfx_spim.o [1]
+SWI0_EGU0_IRQHandler    0x00001335    0x8  Code  Gb  app_timer.o [1]
+SystemCoreClock         0x20000044    0x4  Data  Gb  system_nrf52.o [1]
+SystemCoreClockUpdate   0x000013d3    0xc  Code  Gb  system_nrf52.o [1]
+SystemInit              0x000013df  0x252  Code  Gb  system_nrf52.o [1]
+UARTE0_UART0_IRQHandler
+                        0x00001ea9    0xa  Code  Gb  nrfx_prs.o [1]
+_DoInit                 0x00002c89   0x60  Code  Lc  SEGGER_RTT.o [1]
+_GetAvailWriteSpace     0x00002db9   0x18  Code  Lc  SEGGER_RTT.o [1]
+_IsdstStr               0x2000004c    0x4  Data  Gb  setlocale.o [3]
+_LocaleC_isalpha        0x00003265   0x16  Code  Gb  xlocale_c.o [3]
+_LocaleC_ispunct        0x0000327b   0x24  Code  Gb  xlocale_c.o [3]
+_LocaleForCat           0x0000324d   0x12  Code  Gb  setlocale.o [3]
+_LocaleReturnString     0x2000006c   0x50  Data  Lc  setlocale.o [3]
+_Locale_Profile         0x20000050   0x1c  Data  Gb  setlocale.o [3]
+_NRFX_IRQ_ENABLE        0x00001a05   0x16  Code  Lc  nrfx_spim.o [1]
+_NRFX_IRQ_PRIORITY_SET  0x000019f9    0xc  Code  Lc  nrfx_spim.o [1]
+_SEGGER_RTT             0x200028c8   0x78  Data  Gb  SEGGER_RTT.o [1]
+_TzoneStr               0x20000048    0x4  Data  Gb  setlocale.o [3]
+_WriteBlocking          0x00002ce9   0x7a  Code  Lc  SEGGER_RTT.o [1]
+_WriteNoCheck           0x00002d63   0x56  Code  Lc  SEGGER_RTT.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000ffff          --   Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20000000          --   Gb  command line/config [2]
+__Vectors               0x00000000          --   Gb  iar_startup_nrf52.o [1]
+__Vectors_End           0x00000200         Data  Gb  iar_startup_nrf52.o [1]
+__Vectors_Size {Abs}    0x00000200          --   Gb  iar_startup_nrf52.o [1]
+__cmain                 0x000037d1         Code  Gb  cmain.o [5]
+__exit                  0x000037fd         Code  Gb  XXexit.o [5]
+__iar_data_init3        0x0000355d   0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x00003639         Code  Gb  fpinit_M.o [4]
+__iar_packbits_init_single3
+                        0x00003449   0x38  Code  Gb  packbits_init_single.o [5]
+__iar_program_start     0x00003ad9         Code  Gb  cstartup_M.o [5]
+__iar_unaligned___aeabi_memcpy
+                        0x00000d0d         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x00000d2d         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x00000d2d         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned_strcpy  0x00002f3d         Code  Gb  strcpy_unaligned.o [5]
+__iar_zero_init3        0x00003409   0x40  Code  Gb  zero_init3.o [5]
+__vector_table          0x00000000         Data  Gb  iar_startup_nrf52.o [1]
+_acDownBuffer           0x20002a20   0x10  Data  Lc  SEGGER_RTT.o [1]
+_acUpBuffer             0x200024fc  0x200  Data  Lc  SEGGER_RTT.o [1]
+_call_main              0x000037dd         Code  Gb  cmain.o [5]
+_exit                   0x000037f1         Code  Gb  cexit.o [5]
+_main                   0x000037e7         Code  Gb  cmain.o [5]
+app_error_fault_handler
+                        0x00002a61   0xb4  Code  Wk  app_error_weak.o [1]
+app_error_handler       0x00002a1d   0x1e  Code  Gb  app_error_handler_iar.o [1]
+app_error_save_and_stop
+                        0x00002c09   0x7c  Code  Gb  app_error.o [1]
+app_util_critical_region_enter
+                        0x00000c31    0x8  Code  Gb  app_util_platform.o [1]
+app_util_critical_region_exit
+                        0x00000c39    0x8  Code  Gb  app_util_platform.o [1]
+app_util_disable_irq    0x00000c05    0xe  Code  Gb  app_util_platform.o [1]
+app_util_enable_irq     0x00000c13   0x16  Code  Gb  app_util_platform.o [1]
+backend_id_assign       0x00000917   0x38  Code  Lc  nrf_log_frontend.o [1]
+begin                   0x0000283d   0x24  Code  Gb  main.o [1]
+beginMeasure            0x00002861   0x38  Code  Gb  main.o [1]
+buf_prealloc            0x000004cd   0xce  Code  Lc  nrf_log_frontend.o [1]
+buffer_add              0x00001f05   0x1a  Code  Lc  nrf_fprintf_format.o [1]
+buffer_is_empty         0x00000667   0x1a  Code  Gb  nrf_log_frontend.o [1]
+channel_handler_get     0x000024bd    0xa  Code  Lc  nrfx_gpiote.o [1]
+channel_port_get        0x000024b1    0xc  Code  Lc  nrfx_gpiote.o [1]
+compare_reg_update      0x00001247   0x7a  Code  Lc  app_timer.o [1]
+delay                   0x000026df   0x18  Code  Gb  main.o [1]
+dropped_sat16_get       0x00000459   0x12  Code  Lc  nrf_log_frontend.o [1]
+elapsed_ticks_acquire   0x0000103f   0x6c  Code  Lc  app_timer.o [1]
+errata_108              0x000017d9   0x48  Code  Lc  system_nrf52.o [1]
+errata_12               0x00001631   0x50  Code  Lc  system_nrf52.o [1]
+errata_136              0x00001821   0x48  Code  Lc  system_nrf52.o [1]
+errata_16               0x00001681   0x28  Code  Lc  system_nrf52.o [1]
+errata_182              0x00001869   0x18  Code  Lc  system_nrf52.o [1]
+errata_31               0x000016a9   0x48  Code  Lc  system_nrf52.o [1]
+errata_32               0x000016f1   0x28  Code  Lc  system_nrf52.o [1]
+errata_36               0x00001719   0x48  Code  Lc  system_nrf52.o [1]
+errata_37               0x00001761   0x28  Code  Lc  system_nrf52.o [1]
+errata_57               0x00001789   0x28  Code  Lc  system_nrf52.o [1]
+errata_66               0x000017b1   0x28  Code  Lc  system_nrf52.o [1]
+exit                    0x000037eb    0x4  Code  Gb  exit.o [3]
+expired_timers_handler  0x000010ab   0x58  Code  Lc  app_timer.o [1]
+finish_transfer         0x00001cd5   0x32  Code  Lc  nrfx_spim.o [1]
+int_print               0x00002059   0xd8  Code  Lc  nrf_fprintf_format.o [1]
+invalid_packets_pushed_str_omit
+                        0x0000032f   0x6a  Code  Lc  nrf_log_frontend.o [1]
+irq_handler             0x00001e57   0x26  Code  Lc  nrfx_spim.o [1]
+isalpha                 0x00003225   0x14  Code  Gb  isxxx.o [3]
+isprint                 0x000031fd   0x28  Code  Gb  isprint.o [3]
+ispunct                 0x00003239   0x14  Code  Gb  isxxx.o [3]
+list_insertions_handler
+                        0x00001103  0x144  Code  Lc  app_timer.o [1]
+log_const_data$$Base    0x00003480          --   Gb  - Linker created -
+log_const_data$$Limit   0x000034b8          --   Gb  - Linker created -
+log_dynamic_data$$Base  0x200000bc          --   Gb  - Linker created -
+log_dynamic_data$$Limit
+                        0x200000d8          --   Gb  - Linker created -
+log_mempool             0x00003928   0x18  Data  Gb  nrf_log_frontend.o [1]
+log_mempool_nrf_balloc_cb
+                        0x20002a58    0x8  Data  Lc  nrf_log_frontend.o [1]
+log_mempool_nrf_balloc_pool_mem
+                        0x20002808   0xc0  Data  Lc  nrf_log_frontend.o [1]
+log_mempool_nrf_balloc_pool_stack
+                        0x20002a50    0x8  Data  Lc  nrf_log_frontend.o [1]
+log_skip                0x00000399   0xc0  Code  Lc  nrf_log_frontend.o [1]
+m_cb                    0x20002940   0x5c  Data  Lc  nrfx_gpiote.o [1]
+m_cb                    0x200029dc   0x24  Data  Lc  nrfx_spim.o [1]
+m_colors                0x20000020   0x24  Data  Lc  nrf_log_str_formatter.o [1]
+m_contexts              0x20002a3c    0xc  Data  Lc  nrf_drv_spi.o [1]
+m_handlers              0x20002a30    0xc  Data  Lc  nrf_drv_spi.o [1]
+m_host_present          0x20002a79    0x1  Data  Lc  nrf_log_backend_rtt.o [1]
+m_in_critical_region    0x20002a70    0x4  Data  Lc  app_util_platform.o [1]
+m_log_data              0x200020d8  0x424  Data  Lc  nrf_log_frontend.o [1]
+m_nrf_log_GPIOTE_logs_data_const
+                        0x00003490    0x8  Data  Gb  nrfx_gpiote.o [1]
+m_nrf_log_GPIOTE_logs_data_dynamic
+                        0x200000c4    0x4  Data  Gb  nrfx_gpiote.o [1]
+m_nrf_log_PRS_logs_data_const
+                        0x00003498    0x8  Data  Gb  nrfx_prs.o [1]
+m_nrf_log_PRS_logs_data_dynamic
+                        0x200000c8    0x4  Data  Gb  nrfx_prs.o [1]
+m_nrf_log_SPIM_logs_data_const
+                        0x000034a0    0x8  Data  Gb  nrfx_spim.o [1]
+m_nrf_log_SPIM_logs_data_dynamic
+                        0x200000cc    0x4  Data  Gb  nrfx_spim.o [1]
+m_nrf_log_UARTE_logs_data_const
+                        0x000034b0    0x8  Data  Gb  nrfx_uarte.o [1]
+m_nrf_log_UARTE_logs_data_dynamic
+                        0x200000d4    0x4  Data  Gb  nrfx_uarte.o [1]
+m_nrf_log_UART_logs_data_const
+                        0x000034a8    0x8  Data  Gb  nrfx_uart.o [1]
+m_nrf_log_UART_logs_data_dynamic
+                        0x200000d0    0x4  Data  Gb  nrfx_uart.o [1]
+m_nrf_log_app_logs_data_const
+                        0x00003488    0x8  Data  Gb  nrf_log_frontend.o [1]
+m_nrf_log_app_logs_data_dynamic
+                        0x200000c0    0x4  Data  Gb  nrf_log_frontend.o [1]
+m_nrf_log_balloc_log_mempool_logs_data_const
+                        0x00003480    0x8  Data  Gb  nrf_log_frontend.o [1]
+m_nrf_log_balloc_log_mempool_logs_data_dynamic
+                        0x200000bc    0x4  Data  Gb  nrf_log_frontend.o [1]
+m_op_queue              0x200026fc  0x10c  Data  Lc  app_timer.o [1]
+m_prs_box_4             0x20002a60    0x8  Data  Lc  nrfx_prs.o [1]
+m_rtc1_reset            0x20002a77    0x1  Data  Lc  app_timer.o [1]
+m_rtc1_running          0x20002a76    0x1  Data  Lc  app_timer.o [1]
+m_string_buff           0x2000299c   0x40  Data  Lc  nrf_log_backend_rtt.o [1]
+m_ticks_elapsed         0x20002a48    0x8  Data  Lc  app_timer.o [1]
+m_ticks_elapsed_q_read_ind
+                        0x20002a74    0x1  Data  Lc  app_timer.o [1]
+m_ticks_elapsed_q_write_ind
+                        0x20002a75    0x1  Data  Lc  app_timer.o [1]
+m_ticks_latest          0x20002a6c    0x4  Data  Lc  app_timer.o [1]
+m_unknown_str           0x00003a08   0x14  Data  Lc  nrf_strerror.o [1]
+main                    0x000028bd   0x78  Code  Gb  main.o [1]
+memobj_op               0x00000abd   0x90  Code  Lc  nrf_memobj.o [1]
+module_idx_get          0x000002a7   0x36  Code  Lc  nrf_log_frontend.o [1]
+mp_timer_id_head        0x20002a68    0x4  Data  Lc  app_timer.o [1]
+nrf_atomic_flag_clear_fetch
+                        0x00000bf9    0xa  Code  Gb  nrf_atomic.o [1]
+nrf_atomic_flag_set     0x00000bef    0xa  Code  Gb  nrf_atomic.o [1]
+nrf_atomic_u32_add      0x00000bb9   0x1a  Code  Gb  nrf_atomic.o [1]
+nrf_atomic_u32_fetch_and
+                        0x00000b9d   0x1a  Code  Gb  nrf_atomic.o [1]
+nrf_atomic_u32_fetch_store
+                        0x00000b69   0x18  Code  Gb  nrf_atomic.o [1]
+nrf_atomic_u32_or       0x00000b81   0x1a  Code  Gb  nrf_atomic.o [1]
+nrf_atomic_u32_sub      0x00000bd5   0x1a  Code  Gb  nrf_atomic.o [1]
+nrf_balloc_alloc        0x00000c95   0x4e  Code  Gb  nrf_balloc.o [1]
+nrf_balloc_block2idx    0x00000c4d    0xe  Code  Lc  nrf_balloc.o [1]
+nrf_balloc_free         0x00000ce3   0x28  Code  Gb  nrf_balloc.o [1]
+nrf_balloc_idx2block    0x00000c41    0xc  Code  Lc  nrf_balloc.o [1]
+nrf_balloc_init         0x00000c5b   0x3a  Code  Gb  nrf_balloc.o [1]
+nrf_bitmask_bit_is_set  0x00002487   0x12  Code  Lc  nrfx_gpiote.o [1]
+nrf_bitmask_bit_set     0x00002499   0x18  Code  Lc  nrfx_gpiote.o [1]
+nrf_delay_ms            0x00002b29   0x18  Code  Lc  nrf_log_backend_rtt.o [1]
+nrf_drv_spi_init        0x0000299d   0x70  Code  Gb  nrf_drv_spi.o [1]
+nrf_drv_spi_transfer    0x000026bd   0x22  Code  Lc  main.o [1]
+nrf_fprintf             0x0000232b   0x1e  Code  Gb  nrf_fprintf.o [1]
+nrf_fprintf_buffer_flush
+                        0x00002311   0x1a  Code  Gb  nrf_fprintf.o [1]
+nrf_fprintf_fmt         0x00002131  0x1e0  Code  Gb  nrf_fprintf_format.o [1]
+nrf_gpio_cfg            0x00001ae5   0x36  Code  Lc  nrfx_spim.o [1]
+nrf_gpio_cfg_input      0x00001b33   0x1a  Code  Lc  nrfx_spim.o [1]
+nrf_gpio_cfg_output     0x00001b1b   0x18  Code  Lc  nrfx_spim.o [1]
+nrf_gpio_cfg_sense_set  0x000023f9   0x40  Code  Lc  nrfx_gpiote.o [1]
+nrf_gpio_pin_clear      0x00001b61   0x14  Code  Lc  nrfx_spim.o [1]
+nrf_gpio_pin_port_decode
+                        0x000023f3    0x6  Code  Lc  nrfx_gpiote.o [1]
+nrf_gpio_pin_port_decode
+                        0x00001adf    0x6  Code  Lc  nrfx_spim.o [1]
+nrf_gpio_pin_sense_get  0x00002439   0x1a  Code  Lc  nrfx_gpiote.o [1]
+nrf_gpio_pin_set        0x00001b4d   0x14  Code  Lc  nrfx_spim.o [1]
+nrf_gpio_port_in_read   0x00002453    0x6  Code  Lc  nrfx_gpiote.o [1]
+nrf_gpio_port_out_clear
+                        0x00001b7b    0x6  Code  Lc  nrfx_spim.o [1]
+nrf_gpio_port_out_set   0x00001b75    0x6  Code  Lc  nrfx_spim.o [1]
+nrf_gpio_ports_read     0x00002459   0x2e  Code  Lc  nrfx_gpiote.o [1]
+nrf_gpiote_event_addr_get
+                        0x000023bf    0xc  Code  Lc  nrfx_gpiote.o [1]
+nrf_gpiote_event_clear  0x0000239d   0x22  Code  Lc  nrfx_gpiote.o [1]
+nrf_gpiote_event_is_set
+                        0x00002385   0x18  Code  Lc  nrfx_gpiote.o [1]
+nrf_gpiote_event_pin_get
+                        0x000023d5    0xe  Code  Lc  nrfx_gpiote.o [1]
+nrf_gpiote_event_polarity_get
+                        0x000023e3   0x10  Code  Lc  nrfx_gpiote.o [1]
+nrf_gpiote_int_is_enabled
+                        0x000023cb    0xa  Code  Lc  nrfx_gpiote.o [1]
+nrf_log_backend_add     0x0000094f   0x4c  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_backend_enable  0x00002a3d    0x6  Code  Lc  nrf_log_default_backends.o [1]
+nrf_log_backend_enable  0x00000227    0x6  Code  Lc  nrf_log_frontend.o [1]
+nrf_log_backend_flush   0x00000215    0xa  Code  Lc  nrf_log_frontend.o [1]
+nrf_log_backend_id_get  0x00000223    0x4  Code  Lc  nrf_log_frontend.o [1]
+nrf_log_backend_id_set  0x0000021f    0x4  Code  Lc  nrf_log_frontend.o [1]
+nrf_log_backend_is_enabled
+                        0x0000022d    0x4  Code  Lc  nrf_log_frontend.o [1]
+nrf_log_backend_panic_set
+                        0x0000020b    0xa  Code  Lc  nrf_log_frontend.o [1]
+nrf_log_backend_put     0x00000201    0xa  Code  Lc  nrf_log_frontend.o [1]
+nrf_log_backend_rtt_api
+                        0x00003aa8    0xc  Data  Gb  nrf_log_backend_rtt.o [1]
+nrf_log_backend_rtt_flush
+                        0x00002bb1    0x2  Code  Lc  nrf_log_backend_rtt.o [1]
+nrf_log_backend_rtt_init
+                        0x00002b41    0x8  Code  Gb  nrf_log_backend_rtt.o [1]
+nrf_log_backend_rtt_panic_set
+                        0x00002bb3    0x2  Code  Lc  nrf_log_backend_rtt.o [1]
+nrf_log_backend_rtt_put
+                        0x00002b91   0x10  Code  Lc  nrf_log_backend_rtt.o [1]
+nrf_log_backend_serial_put
+                        0x00002e5d   0xe0  Code  Gb  nrf_log_backend_serial.o [1]
+nrf_log_color_id_get    0x000002fd   0x32  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_default_backends_init
+                        0x00002a43   0x1a  Code  Gb  nrf_log_default_backends.o [1]
+nrf_log_frontend_dequeue
+                        0x00000681  0x296  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_frontend_std_0  0x00000607    0xc  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_frontend_std_1  0x00000613    0xe  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_frontend_std_2  0x00000621   0x12  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_frontend_std_3  0x00000633   0x14  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_frontend_std_5  0x00000647   0x20  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_hexdump_entry_process
+                        0x00003121   0xa8  Code  Gb  nrf_log_str_formatter.o [1]
+nrf_log_init            0x00000231   0x68  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_module_cnt_get  0x00000299    0xe  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_module_name_get
+                        0x000002dd   0x20  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_panic           0x0000099b   0x26  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_std_entry_process
+                        0x00003023   0xfe  Code  Gb  nrf_log_str_formatter.o [1]
+nrf_memobj_alloc        0x000009f9   0x66  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_free         0x00000a5f   0x32  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_get          0x00000a91    0xc  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_pool_init    0x000009f1    0x8  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_put          0x00000a9d   0x20  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_read         0x00000b5b    0xe  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_write        0x00000b4d    0xe  Code  Gb  nrf_memobj.o [1]
+nrf_spim_configure      0x00001a85   0x32  Code  Lc  nrfx_spim.o [1]
+nrf_spim_enable         0x00001a55    0x8  Code  Lc  nrfx_spim.o [1]
+nrf_spim_event_check    0x00001a37   0x12  Code  Lc  nrfx_spim.o [1]
+nrf_spim_event_clear    0x00001a23   0x14  Code  Lc  nrfx_spim.o [1]
+nrf_spim_frequency_set  0x00001a6b    0x6  Code  Lc  nrfx_spim.o [1]
+nrf_spim_int_disable    0x00001a4f    0x6  Code  Lc  nrfx_spim.o [1]
+nrf_spim_int_enable     0x00001a49    0x6  Code  Lc  nrfx_spim.o [1]
+nrf_spim_orc_set        0x00001ab7    0x8  Code  Lc  nrfx_spim.o [1]
+nrf_spim_pins_set       0x00001a5d    0xe  Code  Lc  nrfx_spim.o [1]
+nrf_spim_rx_buffer_set  0x00001a7b    0xa  Code  Lc  nrfx_spim.o [1]
+nrf_spim_rx_list_disable
+                        0x00001ad7    0x8  Code  Lc  nrfx_spim.o [1]
+nrf_spim_rx_list_enable
+                        0x00001acf    0x8  Code  Lc  nrfx_spim.o [1]
+nrf_spim_task_trigger   0x00001a1b    0x8  Code  Lc  nrfx_spim.o [1]
+nrf_spim_tx_buffer_set  0x00001a71    0xa  Code  Lc  nrfx_spim.o [1]
+nrf_spim_tx_list_disable
+                        0x00001ac7    0x8  Code  Lc  nrfx_spim.o [1]
+nrf_spim_tx_list_enable
+                        0x00001abf    0x8  Code  Lc  nrfx_spim.o [1]
+nrf_strerror_array      0x000032a0  0x118  Data  Lc  nrf_strerror.o [1]
+nrf_strerror_find       0x00002bc5   0x36  Code  Gb  nrf_strerror.o [1]
+nrf_strerror_get        0x00002bb5   0x10  Code  Gb  nrf_strerror.o [1]
+nrfx_coredep_delay_us   0x00000ddd   0x16  Code  Lc  app_timer.o [1]
+nrfx_coredep_delay_us   0x00002b15   0x14  Code  Lc  nrf_log_backend_rtt.o [1]
+nrfx_get_irq_number     0x000019f3    0x6  Code  Lc  nrfx_spim.o [1]
+nrfx_is_in_ram          0x000019df   0x14  Code  Lc  nrfx_spim.o [1]
+nrfx_prs_acquire        0x00001ec9   0x3a  Code  Gb  nrfx_prs.o [1]
+nrfx_spim_init          0x00001b81  0x154  Code  Gb  nrfx_spim.o [1]
+nrfx_spim_xfer          0x00001df5   0x62  Code  Gb  nrfx_spim.o [1]
+postfix_process         0x00002fe7   0x3c  Code  Lc  nrf_log_str_formatter.o [1]
+prefix_process          0x00002f83   0x64  Code  Lc  nrf_log_str_formatter.o [1]
+prs_box_get             0x00001eb3    0xe  Code  Lc  nrfx_prs.o [1]
+readXData               0x00002899    0xc  Code  Gb  main.o [1]
+readYData               0x000028a5    0xc  Code  Gb  main.o [1]
+readZData               0x000028b1    0xc  Code  Gb  main.o [1]
+rtc1_compare0_set       0x00000e87    0x8  Code  Lc  app_timer.o [1]
+rtc1_counter_get        0x00000e77    0x8  Code  Lc  app_timer.o [1]
+rtc1_start              0x00000df3   0x3a  Code  Lc  app_timer.o [1]
+rtc1_stop               0x00000e2d   0x4a  Code  Lc  app_timer.o [1]
+rtt_log_backend         0x20000000    0xc  Data  Lc  nrf_log_default_backends.o [1]
+serial_tx               0x00002b49   0x48  Code  Lc  nrf_log_backend_rtt.o [1]
+severity_names          0x2000000c   0x14  Data  Lc  nrf_log_str_formatter.o [1]
+spi                     0x00003a2c   0x10  Data  Lc  main.o [1]
+spi_drv_init            0x000026ff   0x50  Code  Lc  main.o [1]
+spi_event_handler       0x000026f7    0x8  Code  Gb  main.o [1]
+spi_read_one            0x0000274f   0x4c  Code  Gb  main.o [1]
+spi_read_two            0x0000279b   0x58  Code  Gb  main.o [1]
+spi_write_one           0x000027f3   0x4a  Code  Gb  main.o [1]
+spi_xfer_done           0x20002a78    0x1  Data  Lc  main.o [1]
+spim_evt_handler        0x00002969   0x34  Code  Lc  nrf_drv_spi.o [1]
+spim_int_enable         0x00001d07   0x18  Code  Lc  nrfx_spim.o [1]
+spim_list_enable_handle
+                        0x00001d1f   0x2c  Code  Lc  nrfx_spim.o [1]
+spim_xfer               0x00001d4b   0xaa  Code  Lc  nrfx_spim.o [1]
+std_header_set          0x0000046b   0x62  Code  Lc  nrf_log_frontend.o [1]
+std_n                   0x0000059b   0x6c  Code  Lc  nrf_log_frontend.o [1]
+string_print            0x00001f1f   0x6e  Code  Lc  nrf_fprintf_format.o [1]
+strlen                  0x0000234d         Code  Gb  strlen.o [5]
+ticks_diff_get          0x00000e7f    0x8  Code  Lc  app_timer.o [1]
+timeout_handler_exec    0x00000fa5    0xc  Code  Lc  app_timer.o [1]
+timer_list_handler      0x000012c1   0x48  Code  Lc  app_timer.o [1]
+timer_list_handler_sched
+                        0x00000f9b    0xa  Code  Lc  app_timer.o [1]
+timer_list_insert       0x00000e8f   0x7c  Code  Lc  app_timer.o [1]
+timer_list_remove       0x00000f0b   0x86  Code  Lc  app_timer.o [1]
+timer_timeouts_check    0x00000fb1   0x8e  Code  Lc  app_timer.o [1]
+timer_timeouts_check_sched
+                        0x00000f91    0xa  Code  Lc  app_timer.o [1]
+timestamp_print         0x00002f81    0x2  Code  Lc  nrf_log_str_formatter.o [1]
+unsigned_print          0x00001f8d   0xc6  Code  Lc  nrf_fprintf_format.o [1]
+
+
+[1] = F:\IAR_workspace\nrf52\nRF5_SDK_15.0.0_a53641a\examples\peripheral\spi\pca10040\blank\iar\_build
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+
+  13 302 bytes of readonly  code memory
+   2 118 bytes of readonly  data memory
+  10 874 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
